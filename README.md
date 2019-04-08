@@ -1,3 +1,3 @@
 # Apache Kafka Three Ways
 
-Apache Kafka Workshop by [Troy-West](www.troywest.com)
+Apache Kafka Workshop by [Troy-West](http://www.troywest.com)
