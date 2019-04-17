@@ -17,6 +17,7 @@ Trade-Offs and Knobs to twiddle (max.task.idle.ms for example)
 
 Types of Data:
 
+Mutable v Immutable
 Durable v Ephemeral
 In Flight v At Rest
 
