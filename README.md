@@ -7,11 +7,24 @@ Released under the Apache 2.0 license (the same as Apache Kafka).
 Available as a guided, full day workshop with your team. Contact us for details.
 
 Kafka is a database turned inside out, with distribution at heart.
-High Availability and Linear Scalability.
+
+Key Drivers:
+Near Real-Time, High Availability, and Linear Scalability.
 
 Recommend 2.1, due to streaming join semantics (run-ahead, steady-state, protection on stream/table join)
 
-Facts rather than Events
+Data, at most Facts, rather than Events.
+Data IS THE API
+
+Immutable facts rather than events or commands. Just data.
+Leave the intepretation of the data to the consumer(s).
+
+(from CF - event driven journey)
+Alternatively, with the event-first pattern, the paradigm shift is to discard all of those considerations and just send an event as we would in the traditional messaging sense; don’t do anything else; have no API coupling to a remote service. The approach is unique in that it processes the event as a reaction; the emitter doesn’t call on a specific function; the API has been removed and it instead just sends an event. The emitter of the event doesn’t know which processors (or functions) are going to consume it, and the event becomes the API. This decoupling allows the set of consuming apps to change over time without any upstream changes required in the emitter.
+------
+
+Event complects Purpose and Data, demands a response or interpretation. Seems inherently valuable and causatitive.
+
 Messages in Kafka have three parts. Key, Value, Timestamp.
 Trade-Offs and Knobs to twiddle (max.task.idle.ms for example)
 
