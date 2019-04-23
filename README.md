@@ -2,7 +2,7 @@
 
 Apache Kafka Workshop provided by [Troy-West](http://www.troywest.com), presented as a Masterclass at [Voxxed Australia](https://australia.voxxeddays.com/) in May, 2019.
 
-Released under the Apache 2.0 license (the same as Apache Kafka).
+Released under the MIT license.
 
 Available as a guided, full day workshop with your team. Contact us for details.
 
