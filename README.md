@@ -15,6 +15,9 @@ Recommend 2.1, due to streaming join semantics (run-ahead, steady-state, protect
 
 Data, at most Facts, rather than Events.
 Data IS THE API
+The LOG IS TRUTH
+
+Data-Oriented rather than Domain-Driven: e.g. 'The event captures facts about an entity within the domain' is unnecessary.
 
 Immutable facts rather than events or commands. Just data.
 Leave the intepretation of the data to the consumer(s).
