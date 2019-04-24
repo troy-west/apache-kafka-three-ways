@@ -39,7 +39,8 @@
                 <div style="font-size: 14px; line-height: 1.4em;">
                     Guided Apache Kafka workshops available, contact accounts @ <a href="http://www.troywest.com">troywest.com</a>
                     <br/>
-                    Copyright &copy; 2019 Troy-West, Pty Ltd. <a href="https://github.com/troy-west/apache-kafka-three-ways">MIT licensed source</a> available.
+                    Copyright &copy; 2019 Troy-West, Pty Ltd. <a
+                        href="https://github.com/troy-west/apache-kafka-three-ways">MIT licensed source</a> available.
                 </div>
 
             </section>
@@ -87,7 +88,6 @@
                     <li>200M+ lines of code</li>
                     <li>7000+ committers</li>
                     <li>All volunteers</li>
-                    <li>Kafka incubated in 2011</li>
                 </ul>
             </div>
         </section>
@@ -105,6 +105,24 @@
                     <li>Clojure / Log / Data-Oriented</li>
                 </ul>
             </div>
+        </section>
+
+        <section data-background="img/kafka.png" data-background-size="contain" data-markdown
+                 data-separator-notes="^Note:" style="padding-top: 150px;"
+                 data-notes="Hello hello!">
+            <textarea data-template>
+                | Year | Release | Highlight |
+                | ---- |---------|-----------|
+                | 2011 | | Open sourced by LinkedIn |
+                | 2012 | 0.7.0 | First post-incubation release |
+                | 2016 | 0.10.0 | Kafka Streams  |
+                | 2016 | 0.10.1 | Interactive Queries |
+                | 2017 | 0.11.0 | Exactly once processing |
+
+                Note:
+                * Latest release 2.2.0 on March 22nd 2019
+                * 34 releases since escaping incubation
+            </textarea>
         </section>
 
     </div>
@@ -132,7 +150,11 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45054091-2"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'UA-45054091-2');
