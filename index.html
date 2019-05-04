@@ -94,7 +94,7 @@
             <div class="ulist">
                 <a href="https://www.troywest.com/">
                     <img alt="Troy-West Logo"
-                         src="img/tw-light.png"
+                         data-src="img/tw-light.png"
                          style="background:none; border:none; box-shadow:none; width: 30%"></a>
                 <ul>
                     <li>Distributed Systems Consultancy</li>
@@ -158,9 +158,9 @@
             <p style="margin: 0; text-decoration: underline;"><a/href="https://www.recurse.com/social-rules"
                 style="color: #53bd95;">Recurse Center of NYC</a></p>
         </section>
-        
+
         <section>
-            <img src="img/ak3w.png" style="background:none; border:none; box-shadow:none; width: 70%">>
+            <img data-src="img/ak3w.png" style="background:none; border:none; box-shadow:none; width: 70%">>
         </section>
 
         <section data-background="img/way-1.png" data-background-size="contain">
@@ -179,7 +179,7 @@
             <div class="ulist">
                 <a href="https://www.apache.org/">
                     <img alt="Apache Software Foundation Logo"
-                         src="img/apache-foundation.png"
+                         data-src="img/apache-foundation.png"
                          style="background:none; border:none; box-shadow:none; width: 60%"></a>
                 <ul>
                     <li>350+ projects</li>
@@ -211,75 +211,82 @@
                  style="padding-top: 150px;">
             <textarea data-template>
                 # Data v Dogma
-
-                Adjectives not Nouns <!-- .element: class="fragment" data-fragment-index="1" -->
-
-                (there will be prizes) <!-- .element: class="fragment" data-fragment-index="2" -->
             </textarea>
         </section>
 
         <section data-markdown>
             <textarea data-template>
-                ## Data Is Not Necessarily
+                ### There is no shortcut to
 
-                ## An Event <!-- .element: class="fragment" data-fragment-index="1" -->
+                ## Knowing Your Data
 
-                or <!-- .element: class="fragment" data-fragment-index="1" -->
-
-                ## A Command <!-- .element: class="fragment" data-fragment-index="1" -->
+                ## Knowing Your Tools
             </textarea>
         </section>
 
         <section data-markdown>
             <textarea data-template>
-                # Data Is:
+                ### Data Is Not Necessarily
 
-                ## Mutable <!-- .element: class="fragment" data-fragment-index="1" -->
-
-                or <!-- .element: class="fragment" data-fragment-index="1" -->
-
-                ## Immutable <!-- .element: class="fragment" data-fragment-index="1" -->
+                ## An Event
             </textarea>
         </section>
 
         <section data-markdown>
             <textarea data-template>
-                # Data Is:
+                ### There is no value in defining systems as:
 
-                ## Ephemeral <!-- .element: class="fragment" data-fragment-index="1" -->
-
-                or <!-- .element: class="fragment" data-fragment-index="1" -->
-
-                ## Durable <!-- .element: class="fragment" data-fragment-index="1" -->
+                ## Event-Driven / Event-Sourced / CQRS
             </textarea>
         </section>
 
         <section data-markdown>
             <textarea data-template>
-                # Data Is:
-
-                ## In-Flight <!-- .element: class="fragment" data-fragment-index="1" -->
-
-                or <!-- .element: class="fragment" data-fragment-index="1" -->
-
-                ## At-Rest <!-- .element: class="fragment" data-fragment-index="1" -->
+                ### Use adjectives for data, not nouns
             </textarea>
         </section>
 
         <section data-markdown>
             <textarea data-template>
-                ## Systems Are Not Necessarily
+                ### Data Is:
 
-                ## Event-Driven / *-Sourced / CQRS
+                ## Mutable or Immutable
             </textarea>
         </section>
 
         <section data-markdown>
             <textarea data-template>
-                ## Systems Are Defined By
+                ### Data Is:
 
-                ## Decisions & Trade-Offs
+                ## Ephemeral or Durable
             </textarea>
+        </section>
+
+        <section data-markdown>
+            <textarea data-template>
+                ### Data Is:
+
+                ## In-Flight or At-Rest
+            </textarea>
+        </section>
+
+        <section>
+            <h3>Define systems in terms of:</h3>
+
+            <div><h2>Decisions <img data-src="img/idea-only.png"
+                                    style="background:none; border:none; box-shadow:none; width: 15%; margin: 0; padding: 0;">
+                and
+                Trade-Offs <img data-src="img/trade-off-only.png"
+                                style="background:none; border:none; box-shadow:none; width: 15%; margin: 0; padding: 0;">
+            </h2>
+            </div>
+        </section>
+
+        <section>
+            <h3>Define systems in terms of:</h3>
+            <div><h2>Trade-Offs <img data-src="img/trade-off-only.png"
+                                     style="background:none; border:none; box-shadow:none; width: 15%; margin: 0; padding: 0;">
+            </h2></div>
         </section>
 
         <section data-markdown>
@@ -295,8 +302,8 @@
         </section>
 
         <section>
-            <section data-background="img/idea-big.png" data-background-size="contain" style="padding-top: 550px;">
-                <a href=""><i class="fas fa-chevron-down"></i> The Big Idea</a>
+            <section data-background="img/broker/idea.png" data-background-size="contain" style="padding-top: 280px;">
+                <a href=""><h2><i class="fas fa-chevron-down"></i></h2></a>
             </section>
 
             <section data-background="img/unsplash/alain-wong-61678-unsplash.jpg" data-background-size="contain"
@@ -323,20 +330,24 @@
                 </div>
             </section>
 
-            <section data-background="img/idea-sml.png" data-background-size="contain">
+            <section>
                 <div class="ulist">
                     <ul>
                         <li>Append Only</li>
-                        <li>Naturally Immutable</li>
                         <li>Sequence of Records</li>
+                        <li>Naturally Immutable</li>
                         <li>Ordered by Time</li>
                         <li>ID by Offset</li>
                         <li>Ubiquitous</li>
                     </ul>
                     <a href="https://www.troywest.com/">
-                        <img alt="Log Image" src="img/log/log.png"
-                             style="background:none; border:none; box-shadow:none; width: 40%"></a>
+                        <img alt="Log Image" data-src="img/log/log.png"
+                             style="margin-left: 20px; background:none; border:none; box-shadow:none; width: 40%"></a>
                 </div>
+            </section>
+
+            <section data-background="img/broker/basic.png" data-background-size="contain" data-markdown
+                     data-separator-notes="^Note:">
             </section>
 
         </section>
