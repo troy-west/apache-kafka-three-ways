@@ -378,7 +378,7 @@
             <section data-background="img/trade-off-sml.png" data-background-size="contain" data-markdown
                      data-separator-notes="^Note:">
             <textarea data-template>
-                ### Trade Offs
+                ### Trade Off
 
                 * Requires a whole new distributed system (ZK)
             </textarea>
@@ -405,84 +405,41 @@
             </section>
 
             <section>
-                <h3 style="margin-bottom: 0">Partitions = 6</h3>
+                <h3 style="margin-bottom: 0">Cluster of 3 Nodes</h3>
+                <h5 style="margin-bottom: 0">Partitions = 6, Replication Factor = 3</h5>
                 <img class="fragment" alt="Replication" data-src="img/broker/cluster.png"
                      style="margin: 0; background:none; border:none; box-shadow:none; width: 80%">
             </section>
 
+            <section data-background="img/idea-sml.png" data-background-size="contain" data-markdown
+                     data-separator-notes="^Note:">
+            <textarea data-template>
+                # TOPIC
+
+                * A partitioned, replicated, durable log
+                * Each partition consisting of KeyedMessage records
+                * Partitions are broken into segments on disk
+                * Provides a configurable Time To Live (TTL)
+            </textarea>
+            </section>
+
+            <section data-background="img/trade-off-sml.png" data-background-size="contain" data-markdown
+                     data-separator-notes="^Note:">
+            <textarea data-template>
+                # TOPIC
+
+                * Need to ensure keys are roughly evenly distributed
+                * Repartitioning redistributes keys among partitions
+                * Semantic partitioning
+                * Order is only guaranteed within a partition
+            </textarea>
+            </section>
         </section>
 
         <section data-background="img/idea.png" data-background-size="contain" data-markdown
                  data-separator-notes="^Note:" style="padding-top: 150px;">
             <textarea data-template>
                 # Highly Available
-            </textarea>
-        </section>
-
-        <section data-background="img/idea.png" data-background-size="contain" data-markdown
-                 data-separator-notes="^Note:" style="padding-top: 150px;">
-            <textarea data-template>
-                # Linearly Scalable
-            </textarea>
-        </section>
-
-        <section data-background="img/idea.png" data-background-size="contain" data-markdown
-                 data-separator-notes="^Note:" style="padding-top: 150px;">
-            <textarea data-template>
-                # Near Real-Time
-            </textarea>
-        </section>
-
-        <section data-background="img/idea.png" data-background-size="contain" data-markdown
-                 data-separator-notes="^Note:" style="padding-top: 150px;">
-            <textarea data-template>
-                # Immutable
-            </textarea>
-        </section>
-
-        <section data-background="img/idea.png" data-background-size="contain" data-markdown
-                 data-separator-notes="^Note:" style="padding-top: 150px;">
-            <textarea data-template>
-                # Deterministic
-            </textarea>
-        </section>
-
-        <section data-background="img/idea.png" data-background-size="contain" data-markdown
-                 data-separator-notes="^Note:" style="padding-top: 150px;">
-            <textarea data-template>
-                # Time-Series
-            </textarea>
-        </section>
-
-        <section data-background="img/trade-off-big.png" data-background-size="contain">
-        </section>
-
-        <section data-background="img/trade-off.png" data-background-size="contain" data-markdown
-                 data-separator-notes="^Note:" style="padding-top: 150px;">
-            <textarea data-template>
-                # Paradigm Shifts
-            </textarea>
-        </section>
-
-        <section data-background="img/trade-off.png" data-background-size="contain" data-markdown
-                 data-separator-notes="^Note:" style="padding-top: 150px;">
-            <textarea data-template>
-                # Monitoring
-            </textarea>
-        </section>
-
-        <section data-background="img/trade-off.png" data-background-size="contain" data-markdown
-                 data-separator-notes="^Note:" style="padding-top: 150px;">
-            <textarea data-template>
-                # Operations
-            </textarea>
-        </section>
-
-        <section data-background="img/broker/title.png" data-background-size="contain" data-markdown
-                 data-separator-notes="^Note:" style="padding-top: 150px;">
-            <textarea data-template>
-                * Immutable
-                * Idempotent
             </textarea>
         </section>
 
