@@ -344,23 +344,32 @@
             </section>
 
             <section data-background="img/idea-sml.png" data-background-size="contain" data-markdown
-                     data-separator-notes="^Note:" style="padding-top: 100px;">
+                     data-separator-notes="^Note:">
             <textarea data-template>
                 ### High Availability
 
-                * Replicate the Log to multiple brokers
-                * One broker is the leader
-                * The others are followers
-                * "Controller" broker decides who leads
-                * Zookeeper performs controller elections
-                * Zookeeper stores leadership metadata
+                * Replicate the log to multiple brokers
+                * One broker is the leader, the others are followers
+                * Consumers and Producers only talk to the leader
             </textarea>
             </section>
 
-            <section data-background="img/idea-sml.png" data-background-size="contain">
-                <h3 style="margin-bottom: 0">High Availability</h3>
+            <section>
+                <h3 style="margin-bottom: 0">Replication Factor = 3</h3>
                 <img class="fragment" alt="Replication" data-src="img/broker/replication.png"
                      style="margin: 0; background:none; border:none; box-shadow:none; width: 80%">
+            </section>
+
+            <section data-background="img/idea-sml.png" data-background-size="contain" data-markdown
+                     data-separator-notes="^Note:">
+            <textarea data-template>
+                ### High Availability
+
+                * Each Cluster has on 'Controller' Broker
+                * Controller decides replica leaders
+                * Zookeeper performs controller elections
+                * Zookeeper stores leadership metadata
+            </textarea>
             </section>
 
         </section>
