@@ -348,9 +348,12 @@
             <textarea data-template>
                 ### High Availability
 
+                #### To Continue Operating When a Broker Fails
+
                 * Replicate the log to multiple brokers
                 * One broker is the leader, the others are followers
                 * Consumers and Producers only talk to the leader
+                * Fail-over to a follower when a leader dies
             </textarea>
             </section>
 
@@ -365,11 +368,46 @@
             <textarea data-template>
                 ### High Availability
 
-                * Each Cluster has on 'Controller' Broker
-                * Controller decides replica leaders
+                * Each Cluster has a single 'Controller' Broker
+                * The Controller decides replica leaders
                 * Zookeeper performs controller elections
                 * Zookeeper stores leadership metadata
             </textarea>
+            </section>
+
+            <section data-background="img/trade-off-sml.png" data-background-size="contain" data-markdown
+                     data-separator-notes="^Note:">
+            <textarea data-template>
+                ### Trade Offs
+
+                * Requires a whole new distributed system (ZK)
+            </textarea>
+            </section>
+
+            <section data-background="img/idea-sml.png" data-background-size="contain" data-markdown
+                     data-separator-notes="^Note:">
+            <textarea data-template>
+                ### Linear Scalability
+
+                #### To Scale The Volume of Production and Consumption
+
+                * Break the log into multiple parts
+                * Distribute records to partitions by (optional) key
+                * Records with the same key go to the same partition
+                  * Unless you change the number of partitions
+            </textarea>
+            </section>
+
+            <section>
+                <h3 style="margin-bottom: 0">Partitions = 6</h3>
+                <img class="fragment" alt="Replication" data-src="img/broker/distribution.png"
+                     style="margin: 0; background:none; border:none; box-shadow:none; width: 80%">
+            </section>
+
+            <section>
+                <h3 style="margin-bottom: 0">Partitions = 6</h3>
+                <img class="fragment" alt="Replication" data-src="img/broker/cluster.png"
+                     style="margin: 0; background:none; border:none; box-shadow:none; width: 80%">
             </section>
 
         </section>
