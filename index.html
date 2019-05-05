@@ -288,7 +288,7 @@
 
                  * Linear Scalability <!-- .element: class="fragment" data-fragment-index="2" -->
 
-                 * Near Real-Time Stream <!-- .element: class="fragment" data-fragment-index="3" -->
+                 * Near Real-Time <!-- .element: class="fragment" data-fragment-index="3" -->
             </textarea>
         </section>
 
@@ -339,22 +339,28 @@
 
             <section>
                 <img alt="Broker" data-src="img/broker/overview.png"
-                     style="background:none; border:none; box-shadow:none; width: 80%">
-            </section>
-
-            <section data-background="img/idea-sml.png" data-background-size="contain">
-                <div>
-                    <h3 style="margin-bottom: 0">High Availability</h3>
-                    <img class="fragment" alt="Replication" data-src="img/broker/replication.png"
-                         style="margin: 0; background:none; border:none; box-shadow:none; width: 80%">
-                </div>
+                     style="margin: 0; background:none; border:none; box-shadow:none; width: 90%">
+                <h3 class="fragment">What about High Availability & Linear Scalability?</h3>
             </section>
 
             <section data-background="img/idea-sml.png" data-background-size="contain" data-markdown
                      data-separator-notes="^Note:" style="padding-top: 100px;">
             <textarea data-template>
-                # High Availability
+                ### High Availability
+
+                * Replicate the Log to multiple brokers
+                * One broker is the leader
+                * The others are followers
+                * "Controller" broker decides who leads
+                * Zookeeper performs controller elections
+                * Zookeeper stores leadership metadata
             </textarea>
+            </section>
+
+            <section data-background="img/idea-sml.png" data-background-size="contain">
+                <h3 style="margin-bottom: 0">High Availability</h3>
+                <img class="fragment" alt="Replication" data-src="img/broker/replication.png"
+                     style="margin: 0; background:none; border:none; box-shadow:none; width: 80%">
             </section>
 
         </section>
