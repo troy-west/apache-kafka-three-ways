@@ -453,6 +453,17 @@
                 * At Least Once
                 * At Most Once
                 * Exactly Once
+            </textarea>
+            </section>
+
+            <section data-markdown data-separator-notes="^Note:">
+            <textarea data-template>
+                ## Exactly Once
+
+                * Idempotent Producers are Identifiable
+                * Idempotent Producers send ID + batch sequence
+                * Transactional Producers commit atomically
+                * Consumers can choose to read committed
 
                 ------
                 #### [exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it](https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/)
