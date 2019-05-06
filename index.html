@@ -383,7 +383,7 @@
 
                 #### To Scale The Volume of Production and Consumption
 
-                * Break the log into multiple parts
+                * Break the log into multiple partitions
                 * Distribute records to partitions by (optional) key
                 * Records with the same key go to the same partition
                   * Unless you change the number of partitions
@@ -425,12 +425,60 @@
                 * Order is only guaranteed within a partition
             </textarea>
             </section>
+
+            <section>
+                <h3 style="margin-bottom: 0">Consumer Groups</h3>
+                <img class="fragment" alt="Replication" data-src="img/broker/consumer-groups.png"
+                     style="margin: 0; background:none; border:none; box-shadow:none; width: 80%">
+            </section>
+
+            <section data-background="img/idea-sml.png" data-background-size="contain" data-markdown
+                     data-separator-notes="^Note:">
+            <textarea data-template>
+                ### n-Partitions Is The Fundamental Unit Of Parallelism
+                * n Partitions, n+1 Consumers = 1 Idle Consumer
+            </textarea>
+            </section>
+
+            <section>
+                <h3 style="margin-bottom: 0">Serdes</h3>
+                <img class="fragment" alt="Replication" data-src="img/broker/serdes.png"
+                     style="margin: 0; background:none; border:none; box-shadow:none; width: 80%">
+            </section>
+
+            <section data-markdown data-separator-notes="^Note:">
+            <textarea data-template>
+                ## Delivery Semantics
+
+                * At Least Once
+                * At Most Once
+                * Exactly Once
+
+                ------
+                #### [exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it](https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/)
+            </textarea>
+            </section>
+
+            <section>
+                <h3 style="margin-bottom: 0">Recap</h3>
+                <img class="fragment" alt="Replication" data-src="img/broker/recap.png"
+                     style="margin: 0; background:none; border:none; box-shadow:none; width: 80%">
+            </section>
+
+            <section data-markdown data-separator-notes="^Note:">
+            <textarea data-template>
+                # Go Time!
+
+                ------
+                #### [Apache Kafka CLI / Docker Tools](https://github.com/troy-west/apache-kafka-cli-tools)
+            </textarea>
+            </section>
         </section>
 
-        <section data-background="img/idea.png" data-background-size="contain" data-markdown
+        <section  data-markdown
                  data-separator-notes="^Note:" style="padding-top: 150px;">
             <textarea data-template>
-                # Highly Available
+                # X
             </textarea>
         </section>
 
