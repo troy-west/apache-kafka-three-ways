@@ -85,9 +85,9 @@
 
             <div style="background-color: gray; opacity: 0.9;"><h3 style="color: white;">Presentations</h3></div>
 
-            <div style="background-color: gray; opacity: 0.9;"><h3 style="color: white;">Notebook Examples</h3></div>
-
             <div style="background-color: gray; opacity: 0.9;"><h3 style="color: white;">Real Code</h3></div>
+
+            <div style="background-color: gray; opacity: 0.9;"><h3 style="color: white;">Vendor Products</h3></div>
 
             <div style="background-color: white; opacity: 0.8;"><a
                     href="https://github.com/troy-west/apache-kafka-three-ways">Open Sourced under the MIT License.</a>
@@ -361,6 +361,12 @@
             </section>
 
             <section>
+                <h3 style="margin-bottom: 0">Partitions = 6</h3>
+                <img class="fragment" alt="Distribution" data-src="img/broker/modulo.png"
+                     style="margin: 0; background:none; border:none; box-shadow:none; width: 80%">
+            </section>
+
+            <section>
                 <h3 style="margin-bottom: 0">Topic</h3>
                 <h5 style="margin-bottom: 0">Partitions = 6, Replication Factor = 3</h5>
                 <img alt="Cluster" data-src="img/broker/cluster.png"
@@ -389,6 +395,15 @@
                 * Need to ensure keys are roughly evenly distributed
                 * Repartitioning redistributes keys among partitions
                 * Order is only guaranteed within a partition
+            </textarea>
+            </section>
+
+            <section data-markdown data-separator-notes="^Note:">
+            <textarea data-template>
+                # Go Time!
+
+                ------
+                #### [https://github.com/troy-west/apache-kafka-cli-tools](https://github.com/troy-west/apache-kafka-cli-tools)
             </textarea>
             </section>
 
@@ -448,14 +463,6 @@
                      style="margin: 0; background:none; border:none; box-shadow:none; width: 80%">
             </section>
 
-            <section data-markdown data-separator-notes="^Note:">
-            <textarea data-template>
-                # Go Time!
-
-                ------
-                #### [https://github.com/troy-west/apache-kafka-cli-tools](https://github.com/troy-west/apache-kafka-cli-tools)
-            </textarea>
-            </section>
         </section>
 
         <section data-background="img/idea-sml.png" data-background-size="contain" data-markdown
@@ -495,6 +502,24 @@
 
                 <hr style="border-top: 1px solid black; border-bottom: none;"/>
 
+            </section>
+
+            <section>
+                <h3 style="margin-bottom: 0">Processor API (PAPI)</h3>
+                <img alt="Consume Tranfsorm Produce" data-src="img/compute/papi.png"
+                     style="margin: 0; background:none; border:none; box-shadow:none; width: 40%">
+            </section>
+
+            <section>
+                <h3 style="margin-bottom: 0">Local State</h3>
+                <img alt="Consume Tranfsorm Produce" data-src="img/compute/state.png"
+                     style="margin: 0; background:none; border:none; box-shadow:none; width: 70%">
+            </section>
+
+            <section>
+                <h3 style="margin-bottom: 0">Kafka Streams</h3>
+                <img alt="Consume Tranfsorm Produce" data-src="img/compute/streams.png"
+                     style="margin: 0; background:none; border:none; box-shadow:none; width: 40%">
             </section>
 
         </section>
@@ -541,7 +566,7 @@
                  data-separator-notes="^Note:">
             <textarea data-template>
                 ## Checkpoint:
-                 * Scaled Data Querying with Interactive Queries
+                 * Understand Interactive Queries Use + Trade-Offs
             </textarea>
         </section>
 
@@ -575,6 +600,22 @@
             <textarea data-template>
                 ## Checkpoint:
                  * Queried for Number Stations data with KSQL
+            </textarea>
+        </section>
+
+        <section data-background="img/idea-sml.png" data-background-size="contain" data-markdown
+                 data-separator-notes="^Note:">
+            <textarea data-template>
+                ## Extension:
+                 * Dead Letter Queues
+            </textarea>
+        </section>
+
+        <section data-background="img/idea-sml.png" data-background-size="contain" data-markdown
+                 data-separator-notes="^Note:">
+            <textarea data-template>
+                ## Extension:
+                 * Monitoring & Management
             </textarea>
         </section>
 
