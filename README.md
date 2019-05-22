@@ -2,11 +2,11 @@
 
 An Open Source Apache Kafka Workshop provided by [Troy-West](http://www.troywest.com), available as a [guided, full day workshop with your team](http://www.troywest.com/workshops).
 
-Project programming materials provided in Java and Clojure :heart_eyes:.
+Project programming materials provided in Java and Clojure :heart_eyes:
 
 # Goal
 
-To learn the fundamentals, ergonimics, trade-offs, and maturity of Apache Kafka as:
+To learn the fundamentals, ergonomics, trade-offs, and maturity of Apache Kafka as:
 
  1. A Message Broker.
  2. A Streaming Compute Platform.
@@ -34,4 +34,6 @@ Primarily a presentation ([kafka.troywest.com](http://kafka.troywest.com)) follo
 
 Start with the index.html in this project, or view at [kafka.troywest.com](http://kafka.troywest.com).
 
-Copyright © 2019 Troy-West, Pty Ltd. Released under the MIT license.
+The presentation moves left to right, then vertically for each of the three ways.
+
+Copyright © 2019 Troy-West, Pty Ltd. Released under the MIT license. Contributions welcomed.
