@@ -22,13 +22,15 @@ Time permitting, we dabble with vendor tooling (KSQL, Kafka-Connect).
 
 A deep dive into the history and fundamentals of Apache Kafka as a Message Broker.
 
-We learn about the real-time data's unifying abstraction, and explain Kafka via the lens of three key project decisions and their trade-offs:
+We learn about Kafka via the lens of three key project decisions and their trade-offs:
 
 1. High Availability
 2. Linear Scalability
 3. Near Real-Time Compute
- 
-Primarily a presentation ([kafka.troywest.com](http://kafka.troywest.com)) followed by Q+A session.
+
+Throughout we focus on real-time data's unifying abstraction, the log.
+
+Primarily a presentation followed by Q+A session.
 
 # Self Guided
 
