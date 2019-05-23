@@ -53,22 +53,23 @@ start a local, 3-node Kafka Cluster. We operate that cluster via the shell scrip
 
 We talk briefly about the big ideas behind the Processor API and Kafka Streams, and how Kafka facilitates highly available, linearly scalable, near real-time compute. We share our experience with Apache Storm and evolution in this space.
 
-Then we dig into real, practical code. Introducing the mystery of 
+Then we introduce the mystery of 
 [troy-west/apache-kafka-number-stations](https://github.com/troy-west/apache-kafka-number-stations) (or the Clojure variant).
 
-We inspect the secret radio, send 1.5M messages to local Kafka, then progressively fix unit-tests as we
-build a streaming compute application that filters, branches, maps, groups, windows, and aggregates data until we have
-decoded the secret message. 
+We inspect the secret radio, send 1.5M messages to local Kafka, then progressively fix unit-tests until we have
+built a streaming compute application that filters, branches, maps, groups, windows, and aggregates data - decoding the secret message and solving the mystery!
 
 Once the tests are green we build and deploy multiple versions of the system, discussing the expected and observed impact
-on local state / message decoding. The partitioning of data through topics to k-tables writ large.
+on local state partitioning.
 
 Finally we discuss Interactive Queries and the possibility of using Kafka as a distributed database. What data should we expect to source from Kakfa, just the logs, or derived / materialized / computed data? 
 
 # Self Guided
 
+If you are experienced with Kafka you might find these workshop materials useful for your own team.
+
 Start with the index.html in this project, or view at [kafka.troywest.com](http://kafka.troywest.com).
 
 The presentation moves left to right, then vertically for each of the three ways.
 
-Copyright © 2019 Troy-West, Pty Ltd. Released under the MIT license. Contributions welcomed.
+Copyright © 2019 Troy-West, Pty Ltd. Released under the MIT license. Contributions welcome.
