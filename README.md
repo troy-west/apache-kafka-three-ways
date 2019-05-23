@@ -51,9 +51,7 @@ start a local, 3-node Kafka Cluster. We operate that cluster via the shell scrip
 
 #### Solve the mystery of the Numbers Stations!
 
-What use a highly available, linearly scalable, near real-time Message Broker if your streaming compute doesn't share the same fundamental design goals?
-
-We talk briefly about the big ideas behind the Processor API and Kafka Streams, sharing our experience with Apache Storm and evolution in this space.
+We talk briefly about the big ideas behind the Processor API and Kafka Streams, and how Kafka facilitates highly available, linearly scalable, near real-time compute. We share our experience with Apache Storm and evolution in this space.
 
 Then we dig into real, practical code. Introducing the mystery of 
 [troy-west/apache-kafka-number-stations](https://github.com/troy-west/apache-kafka-number-stations) (or the Clojure variant).
