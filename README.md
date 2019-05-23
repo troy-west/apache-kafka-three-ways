@@ -3,9 +3,11 @@
 
 An Open Source Apache Kafka Workshop provided by [Troy-West](http://www.troywest.com), available as a [guided, full day workshop with your team](http://www.troywest.com/workshops).
 
-Project programming materials provided in Java and Clojure.
+Designed to take a full day, this workshop is 50% theory and 50% practice.
 
-Designed to take a full day, this workshop is split into 50% theory and 50% practice.
+Theory materials provided as a reveal.js presentation.
+
+Practical materials provided in Java and Clojure projects.
 
 # Goals
 
