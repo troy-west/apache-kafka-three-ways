@@ -46,9 +46,9 @@ start a local, 3-node Kafka Cluster. We operate that cluster via the shell scrip
 
 # Afternoon Session (Practice)
 
-Solving the mystery of the Numbers Stations!
+#### Solve the mystery of the Numbers Stations!
 
-After a much shorter presentation on the big ideas behind the Processor API and Kafka Streams we dig into 
+After a shorter presentation on the big ideas behind the Processor API and Kafka Streams we dig into 
 [troy-west/apache-kafka-number-stations](https://github.com/troy-west/apache-kafka-number-stations) (or the Clojure variant).
 
 We look at the output of the secret radio, send 1.5M messages to local Kafka, then progressively fix unit-tests as we
