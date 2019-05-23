@@ -14,9 +14,9 @@ To learn the fundamentals, ergonomics, trade-offs, and maturity of Apache Kafka 
  2. A Streaming Compute Platform.
  3. A Distributed Database.
  
-To build a streaming compute system that processes +1M messages and solves the mystery of the Number Stations.
+To build a streaming compute application that processes +1M messages and solves the mystery of the Number Stations.
 
-To operate that system in a manner that demonstrates the linear scalability of compute, and trade-offs.
+To operate the streaming compute application with a local Kafka cluster, now understanding the tiered abstractions of Apache Kafka and how they enable availability, scalability, and (near) real-time compute.
 
 Time permitting, we dabble with vendor tooling (KSQL, Kafka-Connect).
 
