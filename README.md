@@ -4,7 +4,9 @@ An Open Source Apache Kafka Workshop provided by [Troy-West](http://www.troywest
 
 Project programming materials provided in Java and Clojure :heart_eyes:
 
-# Goal
+Designed to take a full day, this workshop is split into 50% theory and 50% practice.
+
+# Goals
 
 To learn the fundamentals, ergonomics, trade-offs, and maturity of Apache Kafka as:
 
@@ -12,13 +14,17 @@ To learn the fundamentals, ergonomics, trade-offs, and maturity of Apache Kafka 
  2. A Streaming Compute Platform.
  3. A Distributed Database.
  
+To build a streaming compute system that processes +1M messages and solves the mystery of the Number Stations.
+
+To operate that system in a manner that demonstrates the linear scalability of compute, and trade-offs.
+
 Time permitting, we dabble with vendor tooling (KSQL, Kafka-Connect).
 
 # Prerequisites
 
 
 
-# Morning
+# Morning Session (Theory)
 
 A deep dive into the history and fundamentals of Apache Kafka as a Message Broker.
 
@@ -31,6 +37,9 @@ We learn about Kafka via the lens of three key project decisions and their trade
 Throughout we focus on real-time data's unifying abstraction, the log.
 
 Primarily a presentation followed by Q+A session.
+
+# Afternoon Session (Practice)
+
 
 # Self Guided
 
