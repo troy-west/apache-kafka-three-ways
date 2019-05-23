@@ -46,7 +46,19 @@ start a local, 3-node Kafka Cluster. We operate that cluster via the shell scrip
 
 # Afternoon Session (Practice)
 
+Solving the mystery of the Numbers Stations!
 
+After a much shorter presentation on the big ideas behind the Processor API and Kafka Streams we dig into 
+[troy-west/apache-kafka-number-stations](https://github.com/troy-west/apache-kafka-number-stations) (or the Clojure variant).
+
+We look at the output of the secret radio, send 1.5M messages to local Kafka, then progressively fix unit-tests as we
+build a streaming compute application that filters, branches, maps, groups, windows, and aggregates data until we have
+decoded the secret message. 
+
+Once the tests are green we build and deploy multiple versions of the system, discussing the expected and observed impact
+on local state / message decoding. The partitioning of data through topics to k-tables writ large.
+
+Finally we discuss Interactive Queries and the possibility of using Kafka as a distributed database. What data should we expect to source from Kakfa, just the logs, or derived / materialized / computed data? 
 
 # Self Guided
 
