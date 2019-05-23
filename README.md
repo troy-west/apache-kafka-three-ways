@@ -1,4 +1,4 @@
-# Apache Kafka Three Ways: [kafka.troywest.com](http://kafka.troywest.com)
+# Apache Kafka Three Ways: [(kafka.troywest.com)](http://kafka.troywest.com)
 
 An Open Source Apache Kafka Workshop provided by [Troy-West](http://www.troywest.com), available as a [guided, full day workshop with your team](http://www.troywest.com/workshops).
 
@@ -43,7 +43,7 @@ Throughout we focus on real-time data's unifying abstraction, the log.
 
 After the presentation and any Q+A we use [troy-west/apache-kafka-cli-tools](https://github.com/troy-west/apache-kafka-cli-tools) to 
 start a local, 3-node Kafka Cluster. We operate that cluster via the shell scripts provided within the Kafka project, 
-and observe the impact repartitioning has on a topic.
+and observe the impact of repartitioning.
 
 # Afternoon Session (Practice)
 
