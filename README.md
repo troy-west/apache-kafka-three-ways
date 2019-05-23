@@ -22,7 +22,12 @@ Time permitting, we dabble with vendor tooling (KSQL, Kafka-Connect).
 
 # Prerequisites
 
-
+* Java 9+ or Clojure & an IDE for completing the Number Stations project work
+* [Docker](https://www.docker.com/) & [Docker Compose](https://docs.docker.com/compose/install/) installed
+* [troy-west/apache-kafka-cli-tools](https://github.com/troy-west/apache-kafka-cli-tools) cloned
+* [troy-west/apache-kafka-number-stations (Java)](https://github.com/troy-west/apache-kafka-number-stations) cloned
+* or, [troy-west/apache-kafka-number-stations-clj (Clojure)](https://github.com/troy-west/apache-kafka-number-stations-clj) cloned
+* [troy-west/apache-kafka-vendor-tools](https://github.com/troy-west/apache-kafka-vendor-tools) cloned
 
 # Morning Session (Theory)
 
@@ -36,9 +41,12 @@ We learn about Kafka via the lens of three key project decisions and their trade
 
 Throughout we focus on real-time data's unifying abstraction, the log.
 
-Primarily a presentation followed by Q+A session.
+After the presentation and any Q+A we use [troy-west/apache-kafka-cli-tools](https://github.com/troy-west/apache-kafka-cli-tools) to 
+start a local, 3-node Kafka Cluster. We operate that cluster via the shell scripts provided within the Kafka project, 
+and observe the impact repartitioning has on a topic.
 
 # Afternoon Session (Practice)
+
 
 
 # Self Guided
