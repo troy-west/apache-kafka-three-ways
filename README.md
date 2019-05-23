@@ -3,7 +3,7 @@
 
 An Open Source Apache Kafka Workshop provided by [Troy-West](http://www.troywest.com), available as a [guided, full day workshop with your team](http://www.troywest.com/workshops).
 
-Project programming materials provided in Java and Clojure :heart_eyes:
+Project programming materials provided in Java and Clojure.
 
 Designed to take a full day, this workshop is split into 50% theory and 50% practice.
 
@@ -49,10 +49,14 @@ start a local, 3-node Kafka Cluster. We operate that cluster via the shell scrip
 
 #### Solve the mystery of the Numbers Stations!
 
-After a shorter presentation on the big ideas behind the Processor API and Kafka Streams we dig into 
+What use a highly available, linearly scalable, near real-time Message Broker if your streaming compute doesn't share the same fundamental design goals?
+
+We talk briefly about the big ideas behind the Processor API and Kafka Streams, sharing our experience with Apache Storm and evolution in this space.
+
+Then we dig into real, practical code. Introducing the mystery of 
 [troy-west/apache-kafka-number-stations](https://github.com/troy-west/apache-kafka-number-stations) (or the Clojure variant).
 
-We look at the output of the secret radio, send 1.5M messages to local Kafka, then progressively fix unit-tests as we
+We inspect the secret radio, send 1.5M messages to local Kafka, then progressively fix unit-tests as we
 build a streaming compute application that filters, branches, maps, groups, windows, and aggregates data until we have
 decoded the secret message. 
 
