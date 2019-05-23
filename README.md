@@ -43,7 +43,7 @@ Throughout we focus on real-time data's unifying abstraction, the log.
 
 After the presentation and any Q+A we use [troy-west/apache-kafka-cli-tools](https://github.com/troy-west/apache-kafka-cli-tools) to 
 start a local, 3-node Kafka Cluster. We operate that cluster via the shell scripts provided within the Kafka project, 
-and observe the impact of repartitioning.
+exploring repartitioning, offsets, consumer groups, and more.
 
 # Afternoon Session (Practice)
 
