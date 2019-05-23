@@ -16,7 +16,7 @@ To learn the fundamentals, ergonomics, trade-offs, and maturity of Apache Kafka 
  
 To build a streaming compute application that processes +1M messages and solves the mystery of the Number Stations.
 
-To operate the streaming compute application with a local Kafka cluster, now understanding the tiered abstractions of Apache Kafka and how they enable availability, scalability, and (near) real-time compute.
+To operate the streaming compute application with a local Kafka cluster, understanding the tiered abstractions of Apache Kafka and how they enable availability, scalability, and (near) real-time compute.
 
 Time permitting, we dabble with vendor tooling (KSQL, Kafka-Connect).
 
