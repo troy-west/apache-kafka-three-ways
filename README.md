@@ -46,7 +46,7 @@ We learn about Kafka via the lens of three key project decisions and their trade
 
 Throughout we focus on real-time data's unifying abstraction, *the log*.
 
-After the presentation and any Q+A we use [troy-west/apache-kafka-cli-tools](https://github.com/troy-west/apache-kafka-cli-tools) to 
+After the presentation and Q+A we use [troy-west/apache-kafka-cli-tools](https://github.com/troy-west/apache-kafka-cli-tools) to 
 start a local, 3-node Kafka Cluster. We operate that cluster via the shell scripts provided by Kafka, exploring repartitioning, offsets, consumer groups, and more.
 
 # Afternoon Session (Practice)
