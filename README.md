@@ -9,7 +9,7 @@ Morning session materials provided as a reveal.js presentation and Q+A (theory).
 
 Afternoon session materials provided as Java and Clojure projects (practice).
  
-Available as a [guided, full day workshop with your team](http://www.troywest.com/workshops), or use and adapt these MIT licensed materials as you see fit.
+We offer a [guided, full day workshop with your team](http://www.troywest.com/workshops) - or use and adapt these MIT licensed materials as you see fit.
 
 # Goals
 
