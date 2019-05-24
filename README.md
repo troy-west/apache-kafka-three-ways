@@ -7,6 +7,8 @@ Theory materials provided as a reveal.js presentation and Q+A (morning session).
 
 Practical materials provided in Java and Clojure projects (afternoon session).
 
+By developers, for developers, our workshop takes new starters through the nuts and bolts of Kafka.
+ 
 # Goals
 
 To learn the fundamentals, ergonomics, trade-offs, and maturity of Apache Kafka as:
