@@ -1,4 +1,4 @@
-# Apache Kafka Three Ways
+# Apache Kafka Three Ways :rocket:
 ### Online at http://kafka.troywest.com
 
 An Open Source Apache Kafka Workshop provided by [Troy-West](http://www.troywest.com), available as a [guided, full day workshop with your team](http://www.troywest.com/workshops).
