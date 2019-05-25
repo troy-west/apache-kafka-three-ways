@@ -72,7 +72,7 @@ If you are experienced with Kafka you might find these workshop materials useful
 
 Start with the index.html in this project, or view at [kafka.troywest.com](http://kafka.troywest.com).
 
-The presentation moves left to right, then vertically for each of the three ways.
+The presentation moves left to right, then vertically for each the broker, compute, db, and vendor parts.
 
 ----
 
