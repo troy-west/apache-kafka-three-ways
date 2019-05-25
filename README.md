@@ -7,7 +7,7 @@ By developers, for developers, our workshop takes new starters through the nuts 
 
 Morning session materials provided as a reveal.js presentation and Q+A (theory).
 
-Afternoon session materials provided as Java and Clojure projects (practice).
+Afternoon session materials provided as [Java](https://github.com/troy-west/apache-kafka-number-stations) and [Clojure](https://github.com/troy-west/apache-kafka-number-stations-clj) projects (practice) where we solve the mystery of the Number Stations.
  
 We offer a [guided, full day workshop with your team](http://www.troywest.com/workshops) - or use and adapt these MIT licensed materials as you see fit.
 
