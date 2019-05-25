@@ -3,7 +3,7 @@
 
 An Open Source Apache Kafka Workshop provided by [Troy-West](http://www.troywest.com).
 
-By developers, for developers, our workshop takes new starters through the nuts and bolts of Kafka. We explain the big ideas, layered abstractions, and gradual evolution of Kafka over the last decade.
+By developers, for developers, our workshop takes new starters through the nuts and bolts of Kafka. We explain the big ideas, layered abstractions, and gradual evolution of Kafka over the years.
 
 Morning materials provided as a reveal.js presentation and Q+A (theory).
 
