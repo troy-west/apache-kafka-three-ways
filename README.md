@@ -74,4 +74,4 @@ Start with the index.html in this project, or view at [kafka.troywest.com](http:
 
 The presentation moves left to right, then vertically for each of the three ways.
 
-Copyright © 2019 Troy-West, Pty Ltd. Released under the MIT license. Contributions welcome.
+Copyright © 2019 Troy-West, Pty Ltd. MIT Licensed. Contributions welcome.
