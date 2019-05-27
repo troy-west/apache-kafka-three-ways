@@ -53,7 +53,7 @@ start a local, 3-node Kafka Cluster. We operate that cluster via the shell scrip
 
 #### Solve the mystery of the Numbers Stations!
 
-We talk briefly about the big ideas behind the Processor API and Kafka Streams, and how Kafka facilitates highly available, linearly scalable, near real-time compute. We share our experience with Apache Storm and evolution in this space.
+We talk briefly about the big ideas behind the Processor API and Kafka Streams, and how Kafka facilitates highly available, linearly scalable, near real-time compute. We share our experience with Apache Storm in this space, and comment on similarities to Clojure regarding immutable streams of data and functional composition.
 
 Then we introduce the mystery of 
 [troy-west/apache-kafka-number-stations](https://github.com/troy-west/apache-kafka-number-stations) (or the Clojure variant).
