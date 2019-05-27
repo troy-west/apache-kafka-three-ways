@@ -38,8 +38,8 @@ Time permitting, we dabble with vendor tooling (KSQL, Kafka-Connect).
 
 Completed solutions to both the Java and Clojure programming exercises are available:
 
-* [troy-west/apache-kafka-number-stations-sln (Java)](https://github.com/troy-west/apache-kafka-number-stations-sln) cloned
-* [troy-west/apache-kafka-number-stations-clj-sln (Clojure)](https://github.com/troy-west/apache-kafka-number-stations-clj-sln) cloned
+* [troy-west/apache-kafka-number-stations-sln (Java)](https://github.com/troy-west/apache-kafka-number-stations-sln) 
+* [troy-west/apache-kafka-number-stations-clj-sln (Clojure)](https://github.com/troy-west/apache-kafka-number-stations-clj-sln) 
 
 # Morning Session (Theory)
 
