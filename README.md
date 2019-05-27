@@ -34,6 +34,13 @@ Time permitting, we dabble with vendor tooling (KSQL, Kafka-Connect).
 * or, [troy-west/apache-kafka-number-stations-clj (Clojure)](https://github.com/troy-west/apache-kafka-number-stations-clj) cloned
 * [troy-west/apache-kafka-vendor-tools](https://github.com/troy-west/apache-kafka-vendor-tools) cloned
 
+# Solutions
+
+Completed solutions to both the Java and Clojure programming exercises are available:
+
+* [troy-west/apache-kafka-number-stations-sln (Java)](https://github.com/troy-west/apache-kafka-number-stations-sln) cloned
+* [troy-west/apache-kafka-number-stations-clj-sln (Clojure)](https://github.com/troy-west/apache-kafka-number-stations-clj-sln) cloned
+
 # Morning Session (Theory)
 
 A deep dive into the history and fundamentals of Apache Kafka as a Message Broker.
