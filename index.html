@@ -28,7 +28,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140259184-2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-140259184-2');
@@ -623,11 +627,14 @@
             <section data-background="img/unsplash/kvistholt-photography-191153-unsplash.jpg"
                      data-background-size="contain"
                      data-separator-notes="^Note:">
-                <div style="background-color: white; opacity: 0.8;"><h2 style="color:black">KSQL & Kafka Connect</h2></div>
+                <div style="background-color: white; opacity: 0.8;"><h2 style="color:black">KSQL & Kafka Connect</h2>
+                </div>
 
                 <hr style="border-top: 1px solid black; border-bottom: none;"/>
 
-                <div style="background-color: black; opacity: 0.8;"><a href="https://github.com/troy-west/apache-kafka-vendor-tools">troy-west/apache-kafka-vendor-tools</a></div>
+                <div style="background-color: black; opacity: 0.8;"><a
+                        href="https://github.com/troy-west/apache-kafka-vendor-tools">troy-west/apache-kafka-vendor-tools</a>
+                </div>
 
                 <a style="position: absolute; left: 0; background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
                    href="https://unsplash.com/@freeche?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
