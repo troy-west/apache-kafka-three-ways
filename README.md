@@ -27,7 +27,7 @@ Time permitting, we dabble with vendor tooling (KSQL, Kafka-Connect).
 
 # Prerequisites
 
-* Java 9+ or Clojure & an IDE for completing the Number Stations project work
+* Java 11+ or Clojure 10+ and an IDE for completing the Number Stations project work
 * [Docker](https://www.docker.com/) & [Docker Compose](https://docs.docker.com/compose/install/) installed
 * [troy-west/apache-kafka-cli-tools](https://github.com/troy-west/apache-kafka-cli-tools) cloned
 * [troy-west/apache-kafka-number-stations (Java)](https://github.com/troy-west/apache-kafka-number-stations) cloned
